@@ -20,7 +20,7 @@ function moveDodgerLeft() {
     if (right > 0) {
         dodger.style.right = `${right + 1}px`; 
         }
-    });
+    };
 
     document.addEventListener("keydown", function(e) {
         if (e.key == "ArrowRight"){
